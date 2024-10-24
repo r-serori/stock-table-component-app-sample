@@ -14,8 +14,7 @@ const StockListPageComponent = () => {
   const [filteredItems, setFilteredItems] = useState(items); // フィルタリングされたアイテムを管理。　TableComponentにPropsとして渡す。
 
   const handleAddNewItem = () => {
-    const newItem = { name: "新しい商品", price: 1200, inStock: true };
-    setItems([...items, newItem]);
+  alert("新規登録画面へ移動します。");
   };
 
   // SearchBarの「検索」ボタンクリック時に呼び出される。
